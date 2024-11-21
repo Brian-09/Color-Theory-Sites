@@ -4,6 +4,8 @@
     margin: 0px;
 }
 
+body {background-color: #e6f6fe;}
+
 header {
     background-color: #00a5f5;
     padding: 10px
@@ -16,6 +18,13 @@ nav {
     justify-content: space-evenly;
 }
 
+.security-house {
+    width: 25%;
+    display: flex;
+    justify-self: center;
+    margin: 20px;
+}
+
 main {
     display: flex;
     flex-direction: row;
@@ -23,12 +32,53 @@ main {
 
 .box-1 {
     background-color: #00537b;
+    width: 35%;
+    padding: 10px;
+    border-top-right-radius: 30px;
 }
 
 .box-2 {
-    background-color: #33b7f7;
+    background-image: linear-gradient(0deg, #80d2fa, #e6f6fe);
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .box-3 {
     background-color: #002131;
+    width: 35%;
+    padding: 10px;
+    border-top-left-radius: 30px;
 }
+
+button {
+    background-color: #00537b;
+    font-size: xx-large;
+    color: #e6f6fe;
+    border-radius: 15px;
+    border: #e6f6fe 2px solid;
+}
+
+button:hover {
+    background-color: #00a5f5;
+    color: white;
+    border: white 4px solid;
+}
+
+nav > a {
+    width: 10%;
+    font-size: x-large;
+    text-decoration: none;
+    background-color: #002131;
+    border-radius: 8px;
+    text-align: center;
+}
+
+footer {
+    background-image: linear-gradient(90deg, #00537b, #002131);
+    border-top: black 4px solid;
+    padding: 10px;
+}
+
+h2 {text-decoration: underline;}
