@@ -1,0 +1,105 @@
+* {
+    font-family: Lucida Handwriting;
+    margin: 0px;
+    color: black;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+header {
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    border-top: black 4px dashed;
+    border-bottom: black 4px dashed;
+    background-image: linear-gradient(90deg, #EBBA01, #00EBC6, #EA00EB);
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+
+.top-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 30px 0px;
+}
+
+.ice-cream-img {
+    width: 75%;
+    border: #00EBC6 4px dotted;
+    border-radius: 50%;
+}
+
+.box-1 {
+    background-color: #EBBA01;
+    width: 40%;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.box-2 {
+    background-color: #EA00EB;
+    width: 40%;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.box-3 {
+    background-color: #00EBC6;
+    width: 50%;
+    height: 150px;
+    padding: 25px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    background-color: #EBBA01;
+    font-size: xx-large;
+    color: white;
+    border-radius: 25px;
+    border: #EA00EB 2px solid;
+    margin-top: 25px;
+}
+
+button:hover {
+    background-color: white;
+    color: #EA00EB;
+    border: #EBBA01 4px solid;
+}
+
+footer {
+    width: 100%;
+    background-image: linear-gradient(270deg, #EBBA01, #00EBC6, #EA00EB);
+    border-top: black 4px dashed;
+    padding: 10px;
+    position: absolute;
+    top: 110%;
+}
+
+nav > a {
+    width: 18%;
+    font-size: x-large;
+    text-decoration: none;
+    background-color: white;
+    border: black 4px dotted;
+    border-radius: 8px;
+    text-align: center;
+}

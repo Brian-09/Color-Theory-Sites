@@ -66,19 +66,19 @@ button:hover {
     border: white 4px solid;
 }
 
+footer {
+    background-image: linear-gradient(90deg, #00537b, #002131);
+    border-top: black 4px solid;
+    padding: 10px;
+}
+
 nav > a {
-    width: 10%;
+    width: 18%;
     font-size: x-large;
     text-decoration: none;
     background-color: #002131;
     border-radius: 8px;
     text-align: center;
-}
-
-footer {
-    background-image: linear-gradient(90deg, #00537b, #002131);
-    border-top: black 4px solid;
-    padding: 10px;
 }
 
 h2 {text-decoration: underline;}
